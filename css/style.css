@@ -16,6 +16,16 @@ body {
   color: #3d3a3a;
   letter-spacing: 5px;
 }
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.responisve-img {
+  width: 50%;
+  height: auto;
+}
   
 h1 {
   color: #413e3e;
@@ -37,8 +47,13 @@ p {
 strong {
   font-weight: 700;
 }
+
+.header {
+  text-align: center;
+}
   
 blockquote {
+  text-align: center;
   display: block;
   max-width: 900px;
   margin: 15px auto;
@@ -63,19 +78,7 @@ blockquote cite {
   text-transform: uppercase;
 }
   
-.container {
-  display: table;
-  max-width: 900px;
-  margin: auto;
-  
-}
-  
-.content {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  width: 80%;
-}
+
   
   /* Special */
 .sub-title {
@@ -85,10 +88,7 @@ blockquote cite {
   text-transform: uppercase;
 }
 
-.responisve-img {
-  width: 50%;
-  height: auto;
-}
+
 
 body {
     /* Location of the image */
