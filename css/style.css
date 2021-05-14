@@ -65,7 +65,7 @@ blockquote cite {
   
 .container {
   display: table;
-  max-width: 500px;
+  max-width: 900px;
   margin: auto;
   
 }
@@ -74,6 +74,7 @@ blockquote cite {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  width: 80%;
 }
   
   /* Special */
