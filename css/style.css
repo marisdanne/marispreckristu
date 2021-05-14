@@ -12,15 +12,16 @@ html, body, h1, p, a, div, section {
   
   /* Basic */
 body { 
-  font-family: 'Kaushan Script';font-size: 22px;
+  font-family: 'Kaushan Script';
+  font-size: 22px;
   color: #3d3a3a;
   letter-spacing: 5px;
 }
 
-.container {
-  width: 900px;
+/* .container {
+  max-width: 900px;
   margin: 0 auto;
-}
+} */
 
 .responisve-img {
   width: 50%;

@@ -6,16 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css"> 
 </head>
 
 <body>
   <div class="container">
-      <div class="header">
+      <div class="row justify-content-center text-center">
         <h1>Māris prec Kristu</h1>
         <p class="sub-title"><strong>15.05.2021</strong> <br /> Kuldīgas dzimsrakstu nodaļā plkst. 13:00</p>
       </div>
-
+      <div class="row">
       <blockquote>
         <h3>Virtuālais ielūgums</h3>
         <img src="img/maris_krista.jpeg" class="responisve-img">
@@ -43,8 +44,11 @@
       </blockquote>
       <blockquote>
         <h3>Iegultais video</h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/NxHpGdTQmcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/NxHpGdTQmcY" title="Kāzu video" allowfullscreen></iframe>
+        </div>
       </blockquote>
+      </div>
     </div>
 </body>
 </html>
