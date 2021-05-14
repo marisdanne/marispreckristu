@@ -66,33 +66,6 @@ html, body, h1, p, a, div, section {
     text-transform: uppercase;
   }
   
-  /* Layout */
-  
-  .navbar {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 40px;
-    z-index: 9999;
-    position: fixed;
-  }
-  
-    .inner {
-      position: relative;
-      margin: 0 auto;
-      text-align: center;
-    }
-  
-  .navbar a {
-    display: inline-block;
-    border: 1px solid #fff;
-    font-size: 14px;
-    line-height: 24px;
-    border-radius: 3px;
-    padding: 2px 15px;
-    text-decoration: none;
-    margin-top: 5px;
-  }
-  
   .container {
     display: table;
     padding-top: 80px;
@@ -112,74 +85,15 @@ html, body, h1, p, a, div, section {
     line-height: 23px;
     text-transform: uppercase;
   }
-  
-  
-  /* Media Queries */
-  @media only screen and (max-width: 340px) {
-    
-    .container {
-      position: relative;
-      display: block;
-      float: left;
-      vertical-align: baseline;
-      margin: 0 auto;
-      padding: 80px 0 0 0;
-    }
-    
-    #more-content {
-      float: left;
-      margin-right: 10px;
-      
-    }
-    
-    body h1 {
-      font-size: 18px;
-      line-height: 23px;
-    } 
-    
-    .content, blockquote {  
-      display: inline;
-      margin: 0 auto;
-      padding-top: 80px;
-      vertical-align: baseline;
-    }
-  
-    blockquote {
-      width: 150px;
-      margin: 15px auto;
-      font-size: 16px;
-      line-height: 21px;
-      background-color: transparent;
-    }
-  
-    blockquote cite {
-      font-size: 14px;
-      line-height: 19px;
-    }
-  
-    .sub-title {
-      font-size: 14px;
-      line-height: 21px;
-    }
-  
-  
-    html, body, .container {
-      height: auto;
-    }
-  }
-
 
   .responisve-img {
     width: 50%;
     height: auto;
   }
+  
+  
 
 
-  /* ----------------------------------- */
-
-  /* Responsive Full Background Image Using CSS
- * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
-*/
 body {
     /* Location of the image */
     background-image: url(../img/bg_second.jpeg);
@@ -200,8 +114,5 @@ body {
     /* Pick a solid background color that will be displayed while the background image is loading */
     background-color:#464646;
     
-    /* SHORTHAND CSS NOTATION
-     * background: url(background-photo.jpg) center center cover no-repeat fixed;
-     */
-  }
+}
   
